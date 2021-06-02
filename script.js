@@ -1,7 +1,7 @@
 document.getElementById('button').addEventListener('click', msg)
 
-function msg() {
-  var val = document.getElementById('textBox').value
+function msg () {
+  const val = document.getElementById('textbox').value
   alert(val)
-  document.getElementById('textBox').value = ''
+  document.getElementById('textbox').value = ''
 }
